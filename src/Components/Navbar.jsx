@@ -32,9 +32,9 @@ function Navbar() {
         <div className='flex justify-between h-16 items-center'>
           <div className='flex space-x-2'>
             <img src={pic} className='h-12 w-12 rounded-full cursor-pointer' alt='' />
-            <h1 className='cursor-pointer text-2xl '>Teja<span className='text-orange-600'>s</span>
-           <Link to='Home'>  <p className='text-sm font-semibold'>React Devloper</p></Link> 
-            </h1>
+            <Link to='Home'> <h1 className='cursor-pointer text-2xl '>Teja<span className='text-orange-600'>s</span>
+            <p className='text-sm font-semibold'>React Devloper</p>
+            </h1></Link> 
           </div>
 
           <div className=''>
