@@ -33,7 +33,7 @@ function Navbar() {
           <div className='flex space-x-2'>
             <img src={pic} className='h-12 w-12 rounded-full cursor-pointer' alt='' />
             <Link to='Home'> <h1 className='cursor-pointer text-2xl '>Teja<span className='text-orange-600'>s</span>
-            <p className='text-sm font-semibold'>React Devloper</p>
+            <p className='text-sm font-semibold'>MERN Stack Devloper</p>
             </h1></Link> 
           </div>
 

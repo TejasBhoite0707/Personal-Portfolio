@@ -29,7 +29,7 @@ function Home ()  {
         />
   </h1>
   <p className="text-sm md:text-lg text-justify">
-    Frontend Masters is an online platform that offers in-depth video training courses on web development, focusing specifically on front-end engineering. The platform is known for its high-quality content and expert instructors, covering topics such as React, Vue, Angular, JavaScript, and more.
+    I am a passionate and responsible MERN Stack Developer with hands-on experience in building full-stack web applications using MongoDB, Express.js, React, and Node.js. I specialize in creating dynamic, responsive, and user-centric applications that deliver seamless performance across various platforms
   </p>
   <br/>
   <div className='flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0'>
