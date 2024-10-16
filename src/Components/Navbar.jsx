@@ -4,6 +4,7 @@ import { IoMenu } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
 import { useState } from 'react';
 import {Link} from 'react-scroll';
+import photo from '../Images/Myimge.jpeg';
 function Navbar() {
   const [menu, setMenu] = useState(false);
   const NavItems=[
@@ -31,7 +32,7 @@ function Navbar() {
       <div className='max-w-screen-2xl container mx-auto px-4 md:px-20 shadow-md h-16 bg-white fixed top-0 right-0 left-0 z-50'>
         <div className='flex justify-between h-16 items-center'>
           <div className='flex space-x-2'>
-            <img src={pic} className='h-12 w-12 rounded-full cursor-pointer' alt='' />
+            <img src={photo} className='h-12 w-12 rounded-full cursor-pointer' alt='' />
             <Link to='Home'> <h1 className='cursor-pointer text-2xl '>Teja<span className='text-orange-600'>s</span>
             <p className='text-sm font-semibold'>MERN Stack Devloper</p>
             </h1></Link> 

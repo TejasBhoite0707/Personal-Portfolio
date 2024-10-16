@@ -1,16 +1,17 @@
 import React from 'react';
-import htmli from '../Images/FoodBlog.png';
-import javai from '../Images/MegaBlog.png';
+import FoodCart from '../Images/FoodBlog.png';
+import TickTacToe from '../Images/TickTacToe.jpeg';
 import jsi from '../Images/passGenerator.jpg';
-import pyi from '../Images/to_do_list_icon.png';
-import reacti from '../Images/React.png';
-
+import TodoList from '../Images/to_do_list_icon.png';
+import urlShortener from '../Images/UrlShortner.jpeg'
+import BookStore from '../Images/BookStore.png';
+import roxiler from '../Images/Roxiler.jpeg'
 function Portfolio () {
 const CardItems=[
     {
         id:1,
         name:"FoodCourt",
-        logo:htmli,
+        logo:FoodCart,
         webd:'https://food-cart-tejas.vercel.app/',
         desc:'',
         webRepo:'https://github.com/TejasBhoite0707/Food-CART',
@@ -18,7 +19,7 @@ const CardItems=[
     {
         id:2,
         name:"Tic Tak Toe",
-        logo:javai,
+        logo:TickTacToe,
         webd:'https://tejas-tictactoe.netlify.app',
         desc:'',
         webRepo:'https://github.com/TejasBhoite0707/Game',
@@ -34,14 +35,14 @@ const CardItems=[
     {
         id:4,
         name:"Bookstotre",
-        logo:reacti,
+        logo:BookStore,
         webd:'https://github.com/TejasBhoite0707/BookStore',
         webRepo:'https://github.com/TejasBhoite0707/BookStore',
     },
     {
         id:5 ,
         name:"TodoList",
-        logo:pyi,
+        logo:TodoList,
         webd:'https://tejastodolist.netlify.app',
         desc:'',
         webRepo:'https://github.com/TejasBhoite0707/ContextApiStorage',
@@ -49,10 +50,18 @@ const CardItems=[
     {
         id:6 ,
         name:"URL SHORTENER",
-        logo:pyi,
+        logo:urlShortener,
         webd:'https://playful-sunshine-3d4649.netlify.app',
         desc:'',
         webRepo:'https://github.com/TejasBhoite0707/url-shortener-master',
+    },
+    {
+        id:7 ,
+        name:"Roxiler Transaction",
+        logo:roxiler,
+        webd:'https://roxiller-transactions.vercel.app/',
+        desc:'',
+        webRepo:'https://github.com/TejasBhoite0707/Solution_Roxiler-Systems',
     },
 ]
     return (

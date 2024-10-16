@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { SiMongodb } from "react-icons/si";
 
 function About () {
 
@@ -8,9 +8,7 @@ function About () {
        <div name='About' className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-10 '>
         <h1 className='text-3xl mb-5 font-bold'>About</h1>
         <p>
-        Hello, I am Tejas, a skilled frontend developer with a passion for crafting intuitive and engaging user experiences. 
-        I specialize in creating responsive and visually appealing web interfaces using modern technologies. 
-        My expertise includes working with React, Tailwind CSS, and other frontend tools to bring dynamic web applications to life.
+        I'm Tejas, a passionate MERN Stack and frontend developer, specializing in creating dynamic, responsive web applications. I excel at building user-centric interfaces using React, Tailwind CSS, and modern tools, delivering seamless performance across platforms. My expertise lies in crafting visually appealing, intuitive web experiences. I strive to ensure every project offers both functionality and aesthetic appeal
         </p>
         <br/>
         <br/>
@@ -19,11 +17,9 @@ function About () {
             Education And Training
         </h1>
         <span>
-        Btech,
-Computer Science And Engineering,
-Rajarambapu Institute of Technology, 
-Rajaramnagar.
-Dec-2021 to july-2025.
+        B.Tech, Computer Science and Engineering
+Rajarambapu Institute of Technology, Rajaramnagar
+December 2021 – July 2025
         </span>
         <br/>
         <br/>
@@ -31,9 +27,14 @@ Dec-2021 to july-2025.
             Skills And Expertise
         </h1>
         <span>
-        I have a strong proficiency in JavaScript, HTML, CSS, and React, allowing me to create dynamic, responsive, and visually engaging web applications.
-         My expertise in JavaScript includes modern ES6+ features and frameworks, while my solid foundation in HTML and CSS ensures semantic markup and pixel-perfect design.
-          With React, I build efficient, scalable user interfaces using components, hooks, and state management tools.
+    <ul type='disk'>
+<li><SiMongodb style={{display:'inline'}} />MongoDB</li>
+<li><SiMongodb style={{display:'inline'}} />MongoDB</li>
+<li><SiMongodb style={{display:'inline'}} />MongoDB</li>
+<li><SiMongodb style={{display:'inline'}} />MongoDB</li>
+<li><SiMongodb style={{display:'inline'}} />MongoDB</li>
+<li><SiMongodb style={{display:'inline'}} />MongoDB</li>
+    </ul>
         </span>
         <br/>
         <br/>
@@ -49,11 +50,10 @@ My goal is to transform complex ideas into simple, elegant, and accessible web s
         <br/>
         <br/>
         <h1 className='text-xl font-semibold text-green-800'>
-            Hobies
+            Hobbies
         </h1>
         <span>
-     I am a playing tabla from childhood at achive the Distiction in 4 exam.
-     I Likes to wondering in the new Environments And explore the world. 
+        I have been playing the tabla since childhood and have achieved distinction in four exams. I also love exploring new environments and enjoy discovering the world around me. 
         </span>
        </div>
        <br/>
