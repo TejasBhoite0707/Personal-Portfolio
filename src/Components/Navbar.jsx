@@ -18,7 +18,7 @@ function Navbar() {
     },
     {
       id:3,
-      name:"Portfolio"
+      name:"Projects"
     },
    
     {
