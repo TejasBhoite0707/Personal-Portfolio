@@ -1,6 +1,11 @@
 import React from 'react';
 import { SiMongodb } from "react-icons/si";
-
+import { FaReact } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io";
+import { FaJava } from "react-icons/fa";
+import { FaGitSquare } from "react-icons/fa";
 function About () {
 
     return (
@@ -27,13 +32,14 @@ December 2021 – July 2025
             Skills And Expertise
         </h1>
         <span>
-    <ul type='disk'>
-<li><SiMongodb style={{display:'inline'}} />MongoDB</li>
-<li><SiMongodb style={{display:'inline'}} />MongoDB</li>
-<li><SiMongodb style={{display:'inline'}} />MongoDB</li>
-<li><SiMongodb style={{display:'inline'}} />MongoDB</li>
-<li><SiMongodb style={{display:'inline'}} />MongoDB</li>
-<li><SiMongodb style={{display:'inline'}} />MongoDB</li>
+    <ul type='disk' className='text-xl space-y-2'>
+<li><SiMongodb style={{display:'inline'}} /> MongoDB</li>
+<li><FaReact style={{display:'inline'}} /> React.js</li>
+<li><FaNodeJs style={{display:'inline'}} /> Node.js</li>
+<li><SiExpress style={{display:'inline'}} /> Express.js</li>
+<li><IoLogoJavascript style={{display:'inline'}} /> JavaScript</li>
+<li><FaJava style={{display:'inline'}} /> Java</li>
+<li><FaGitSquare style={{display:'inline'}} /> git</li>
     </ul>
         </span>
         <br/>
@@ -43,9 +49,7 @@ December 2021 – July 2025
         </h1>
         <span>
         
-As a frontend developer, my mission is to create intuitive, responsive, and visually engaging user interfaces that enhance the user experience. 
-I strive to implement cutting-edge technologies and best practices to ensure seamless performance across all devices. 
-My goal is to transform complex ideas into simple, elegant, and accessible web solutions.
+        As a MERN Stack developer, my mission is to build dynamic, scalable, and efficient full-stack applications that deliver seamless user experiences. I focus on leveraging cutting-edge technologies and best practices to ensure high-performance, secure, and responsive solutions across the entire development stack. My goal is to turn complex requirements into robust, user-friendly applications that work flawlessly across platforms.
         </span>
         <br/>
         <br/>
