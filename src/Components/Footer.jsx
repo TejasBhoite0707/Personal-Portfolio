@@ -18,8 +18,8 @@ function Footer () {
  <a href='https://www.linkedin.com/feed/' target='_blank'> <FaLinkedin size={25} className='cursor-pointer hover:scale-110 transition-all duration-200'/></a>   
 </div>
 <div className='mt-8 border-t border-gray-600 pt-8 md:flex flex-col items-center'>
-    <p className='text-center text-sm font-semibold md:text-lg'>@copy; 2024 your Company: All rights reversed</p>
-    <p className='text-center'>Supporter Partner 💚Pranav Pise</p>
+    <p className='text-center text-sm font-semibold md:text-lg'>&copy; 2024 your Company: All rights reversed</p>
+    <p className='text-center'>Support Partner 💚<a href='https://pranavpise.netlify.app/' target='_blank' className='underline text-blue-700'>Pranav Pise</a></p>
 </div>
 
 </div>

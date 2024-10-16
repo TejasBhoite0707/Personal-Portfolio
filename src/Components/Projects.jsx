@@ -45,7 +45,7 @@ const CardItems=[
         name:"TodoList",
         logo:TodoList,
         webd:'https://tejastodolist.netlify.app',
-        desc:'',
+        desc:'Developed a React to-do list app using Context API for efficient state management and task tracking',
         webRepo:'https://github.com/TejasBhoite0707/ContextApiStorage',
     },
     {
@@ -53,7 +53,7 @@ const CardItems=[
         name:"URL SHORTENER",
         logo:urlShortener,
         webd:'https://playful-sunshine-3d4649.netlify.app',
-        desc:'',
+        desc:'Built a React URL shortener app with Supabase backend Service to efficiently shorten long URLs',
         webRepo:'https://github.com/TejasBhoite0707/url-shortener-master',
     },
     {
@@ -61,40 +61,35 @@ const CardItems=[
         name:"Roxiler Transaction",
         logo:roxiler,
         webd:'https://roxiller-transactions.vercel.app/',
-        desc:'',
+        desc:'Developed a full-stack app that fetches transaction data, featuring a dashboard for sales insights',
         webRepo:'https://github.com/TejasBhoite0707/Solution_Roxiler-Systems',
     },
 ]
     return (
       <>
-      <div name='Projects' className='max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10' >
-        <div>
-<h1 className='text-3xl mb-5 font-bold'>Projects</h1>
-
-<div className='grid md:grid-cols-4 my-10 gap-20'>
-{
-    CardItems.map(({id,logo,name, webd,
-        webRepo,desc})=>(
-    <div key={id} className='md:w-[300px]  md:h-[300px] border-[2px] rounded-lg shadow-lg p-1  cursor-pointer md:hover:scale-95 bg-white duration-150'>
-<img src={logo} className='w-[120px] h-[120px] p-1 rounded-full border-[2px] ml-14' alt=''/> 
-<div className=''>
-<div className='font-bold text-lg p-1'>{name}</div>
-<p className='text-gray-700 p-1'>{desc}  </p>
+     <div name='Projects' className='max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10'>
+    <div>
+    <h1 className='text-3xl mb-8 font-bold text-gray-800 border-b-4 border-green-800 pb-2 w-fit'>Projects</h1>
+        
+        <div className='grid md:grid-cols-4 my-10 gap-10'>
+            {CardItems.map(({ id, logo, name, webd, webRepo, desc }) => (
+                <div key={id} className='border-2 rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105 p-4 bg-white flex flex-col justify-between'>
+                    <div className='flex flex-col items-center mb-4'>
+                        <img src={logo} className='w-[120px] h-[120px] p-1 rounded-full border-2 shadow-md' alt={name} />
+                        <div className='font-bold text-lg text-center mt-2'>{name}</div>
+                        <p className='text-gray-700 text-center mt-1'>{desc}</p>
+                    </div>
+                    
+                    <div className='flex justify-between mt-auto'>
+                        <a className='bg-blue-700 text-white rounded-md w-24 p-2 text-center hover:bg-blue-600 transition-colors duration-200' href={webd} target='_blank' rel='noopener noreferrer'>View</a>
+                        <a className='bg-blue-700 text-white rounded-md w-24 p-2 text-center hover:bg-blue-600 transition-colors duration-200' href={webRepo} target='_blank' rel='noopener noreferrer'>Repo</a>
+                    </div>
+                </div>
+            ))}
+        </div>
     </div>
-<div className='flex gap-8'>
-    <a className='bg-blue-700 text-white rounded-md w-24 items-center hover:text-green-600 text-center' href={webd} target='_blank' >View</a>
-    <a className='bg-blue-700 text-white rounded-md w-24 items-center hover:text-green-600 text-center' href={webRepo} target='_blank'>Repo</a>
-</div>
-    </div>    
-    )
-    )
-}
-
 </div>
 
-
-</div>
-      </div>
       
       </>
     );

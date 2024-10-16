@@ -11,7 +11,7 @@ function About () {
     return (
       <>
      <div name='About' className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-16'>
-  <h1 className='text-4xl mb-8 font-bold text-gray-800 border-b-4 border-green-800 pb-2 w-fit'>About Me</h1>
+  <h1 className='text-3xl mb-8 font-bold text-gray-800 border-b-4 border-green-800 pb-2 w-fit'>About Me</h1>
   <p className='text-lg md:text-xl text-gray-700 leading-relaxed'>
     I'm Tejas, a passionate MERN Stack and frontend developer, specializing in creating dynamic, responsive web applications. I excel at building user-centric interfaces using React, Tailwind CSS, and modern tools, delivering seamless performance across platforms. My expertise lies in crafting visually appealing, intuitive web experiences. I strive to ensure every project offers both functionality and aesthetic appeal.
   </p>
