@@ -19,18 +19,18 @@ function Home ()  {
 
     {/* Text Section */}
     <div className="md:w-1/2 mt-8 md:mt-24 space-y-6 order-2 md:order-1">
-      <span className="text-lg md:text-2xl text-gray-700 tracking-wide">Welcome to My Page</span>
+      <span className="text-lg md:text-2xl text-stone-50 tracking-wide">Welcome to My Page</span>
       <h1 className="font-extrabold text-3xl md:text-5xl leading-snug md:leading-tight">
         Hello, I am{' '}
         <ReactTyped
-          className='text-red-700 md:text-5xl text-4xl font-semibold'
+          className='text-purple-400 md:text-5xl text-4xl font-semibold'
           strings={["Programmer", "Coder", "Developer"]}
           typeSpeed={60}
           backSpeed={60}
           loop={true}
         />
       </h1>
-      <p className="text-sm md:text-lg text-gray-600 text-justify leading-relaxed md:leading-loose">
+      <p className="text-sm md:text-lg text-stone-50 text-justify leading-relaxed md:leading-loose">
         I am a passionate and responsible MERN Stack Developer with hands-on experience in building full-stack web applications using MongoDB, Express.js, React, and Node.js. I specialize in creating dynamic, responsive, and user-centric applications that deliver seamless performance across various platforms.
       </p>
 
@@ -73,7 +73,7 @@ function Home ()  {
               </li>
             </a>
             <a href='https://www.w3schools.com/html/' target='_blank'>
-              <li className='cursor-pointer hover:text-orange-500 hover:scale-110 transition-transform duration-200'>
+              <li className='cursor-pointer hover:text-indigo-300 hover:scale-110 transition-transform duration-200'>
                 <IoLogoHtml5 />
               </li>
             </a>

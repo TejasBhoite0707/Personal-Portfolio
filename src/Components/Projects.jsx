@@ -69,15 +69,15 @@ const CardItems=[
       <>
      <div name='Projects' className='max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10'>
     <div>
-    <h1 className='text-3xl mb-8 font-bold text-gray-800 border-b-4 border-green-800 pb-2 w-fit'>Projects</h1>
+    <h1 className='text-3xl mb-8 font-bold text-indigo-300 border-b-4 border-purple-400 pb-2 w-fit'>Projects</h1>
         
         <div className='grid md:grid-cols-4 my-10 gap-10'>
             {CardItems.map(({ id, logo, name, webd, webRepo, desc }) => (
                 <div key={id} className='border-2 rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105 p-4 bg-white flex flex-col justify-between'>
                     <div className='flex flex-col items-center mb-4'>
                         <img src={logo} className='w-[120px] h-[120px] p-1 rounded-full border-2 shadow-md' alt={name} />
-                        <div className='font-bold text-lg text-center mt-2'>{name}</div>
-                        <p className='text-gray-700 text-center mt-1'>{desc}</p>
+                        <div className='font-bold text-lg text-center mt-2 text-black'>{name}</div>
+                        <p className='text-black text-center mt-1'>{desc}</p>
                     </div>
                     
                     <div className='flex justify-between mt-auto'>
