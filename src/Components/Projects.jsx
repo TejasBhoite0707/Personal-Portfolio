@@ -12,7 +12,7 @@ const CardItems=[
         id:1,
         name:"FoodCourt",
         logo:FoodCart,
-        webd:'https://food-cart-tejas.vercel.app/',
+        webd:'https://github.com/TejasBhoite0707/Food-CART',
         desc:'The MERN Food Court project is a full-stack app for food ordering with Redux for state management',
         webRepo:'https://github.com/TejasBhoite0707/Food-CART',
     },
