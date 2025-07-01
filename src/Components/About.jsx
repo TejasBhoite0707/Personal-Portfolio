@@ -25,6 +25,32 @@ function About () {
     </span>
   </div>
 
+<div className="mt-12">
+  <h1 className="text-2xl font-semibold text-purple-400">Experience</h1>
+
+  <div className="mt-6">
+    <div className="flex justify-between items-center flex-wrap">
+      <h2 className="text-lg text-stone-50 font-semibold">5TechG Lab LLP</h2>
+      <span className="text-sm text-stone-400 italic">Jan 2025 – May 2025</span>
+    </div>
+    <p className="text-lg text-purple-300 mt-1">MERN Stack Developer Intern</p>
+
+    <div className="mt-4">
+      <ul className="list-disc pl-5 text-stone-50 space-y-2 text-[18px]">
+        <li>Developed and maintained real-world applications in real estate, ERP, and ed-tech domains.</li>
+        <li>Created responsive UIs using React.js, Tailwind CSS, Ant Design, and Material UI.</li>
+        <li>Integrated Redux and Redux Thunk for efficient state management and API handling.</li>
+        <li>Worked on admin panels, employee dashboards, and Excel export/reporting features.</li>
+        <li>Implemented dynamic charts for attendance using Chart.js (daily, weekly, monthly views).</li>
+        <li>Collaborated with backend teams for API development and participated in client meetings.</li>
+        <li>Enhanced user engagement with features like birthday/work anniversary pop-ups.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
   <div className='mt-12'>
     <h1 className='text-2xl font-semibold text-purple-400'>Skills and Expertise</h1>
     <ul className='text-xl space-y-3 mt-4'>
