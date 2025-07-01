@@ -6,6 +6,7 @@ import TodoList from '../Images/to_do_list_icon.png';
 import urlShortener from '../Images/UrlShortner.jpeg'
 import BookStore from '../Images/BookStore.png';
 import roxiler from '../Images/Roxiler.jpeg'
+import TravelJourApp from '../Images/TravelJounerlApp.jpeg'
 function Projects () {
 const CardItems=[
     {
@@ -63,6 +64,14 @@ const CardItems=[
         webd:'https://roxiller-transactions.vercel.app/',
         desc:'Developed a full-stack app that fetches transaction data, featuring a dashboard for sales insights',
         webRepo:'https://github.com/TejasBhoite0707/Solution_Roxiler-Systems',
+    },
+    {
+        id:8 ,
+        name:"Travel Journel App",
+        logo:TravelJourApp,
+        webd:'https://github.com/TejasBhoite0707/Travel_journel_App',
+        desc:'Travel Journal is a MERN app to add, view, and manage travel memories with photos, locations, and interactive features.',
+        webRepo:'https://github.com/TejasBhoite0707/Travel_journel_App',
     },
 ]
     return (

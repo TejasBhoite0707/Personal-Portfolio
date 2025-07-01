@@ -25,6 +25,7 @@ function Navbar() {
        id:4,
       name:"Contact"
     }
+    
   ]
   return (
     <>
@@ -61,6 +62,14 @@ function Navbar() {
             </li>
           ))
         }
+         <a
+      href="https://drive.google.com/file/d/14OoNtIJiwVxUD6xOFc2t71GhSx91xm8R/view?usp=drive_link"
+      target='_blank'
+      download
+      className="bg-purple-600 text-white px-4 py-1 rounded hover:bg-purple-700 transition-all duration-300 font-medium"
+    >
+     Get My Resume
+    </a>
       </ul>
 
       {/* Hamburger Menu for Mobile */}
