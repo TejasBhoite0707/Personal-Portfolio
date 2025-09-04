@@ -28,9 +28,24 @@ function About () {
 <div className="mt-12">
   <h1 className="text-2xl font-semibold text-purple-400">Experience</h1>
 
-  <div className="mt-6">
+   <div className="mt-6">
     <div className="flex justify-between items-center flex-wrap">
-      <h2 className="text-lg text-stone-50 font-semibold">5TechG Lab LLP</h2>
+    <a href='https://www.linkedin.com/company/solutions-by-technosoft/posts/?feedView=all'><h2 className="underline text-xl text-stone-50 font-semibold">Technosoft Software Solution</h2></a>  
+      <span className="text-sm text-stone-400 italic">Present</span>
+    </div>
+    <p className="text-lg text-purple-300 mt-1">Full Stack Developer </p>
+
+    <div className="mt-4">
+      <ul className="list-disc pl-5 text-stone-50 space-y-2 text-[18px]">
+        <li>Joined as a Fullstack Developer, undergoing onboarding and training in React.js Native and Typescript</li>
+        <li>Currently working on the Admin Module UI project, focusing on building responsive and user-friendly interfaces</li>
+      </ul>
+    </div>
+  </div>
+
+  <div className="mt-8">
+    <div className="flex justify-between items-center flex-wrap">
+    <a href='https://www.linkedin.com/company/5techg/posts/?feedView=all'><h2 className="text-xl text-stone-50 font-semibold underline">5TechG Lab LLP</h2></a>  
       <span className="text-sm text-stone-400 italic">Jan 2025 – May 2025</span>
     </div>
     <p className="text-lg text-purple-300 mt-1">MERN Stack Developer Intern</p>
