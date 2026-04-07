@@ -2,13 +2,14 @@ import React from 'react';
 import { FaFacebook } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { FaTelegram } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
+import { FaDatabase, FaLinkedin, FaNodeJs } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { IoLogoHtml5 } from "react-icons/io5";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTailwindcss } from "react-icons/si";
 import {ReactTyped} from 'react-typed';
 import photo from '../Images/Myimge.jpeg';
+import { BiLogoTypescript } from 'react-icons/bi';
 function Home ()  {
 
     return (
@@ -31,7 +32,7 @@ function Home ()  {
         />
       </h1>
       <p className="text-sm md:text-lg text-stone-50 text-justify leading-relaxed md:leading-loose">
-        I am a passionate and responsible MERN Stack Developer with hands-on experience in building full-stack web applications using MongoDB, Express.js, React, and Node.js. I specialize in creating dynamic, responsive, and user-centric applications that deliver seamless performance across various platforms.
+        I am a passionate Full Stack Developer with hands-on experience in building scalable and real-time web applications using React.js, Node.js, SQL, and REST APIs. Focused on delivering high-performance, user-centric solutions with clean and maintainable code.
       </p>
 
       {/* Social Media and Current Work */}
@@ -74,7 +75,7 @@ function Home ()  {
             </a>
             <a href='https://www.w3schools.com/html/' target='_blank'>
               <li className='cursor-pointer hover:text-indigo-300 hover:scale-110 transition-transform duration-200'>
-                <IoLogoHtml5 />
+                <FaNodeJs  />
               </li>
             </a>
             <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript' target='_blank'>
@@ -84,7 +85,12 @@ function Home ()  {
             </a>
             <a href='https://tailwindcss.com/' target='_blank'>
               <li className='cursor-pointer hover:text-blue-300 hover:scale-110 transition-transform duration-200'>
-                <SiTailwindcss />
+                <BiLogoTypescript />
+              </li>
+            </a>
+            <a href='https://tailwindcss.com/' target='_blank'>
+              <li className='cursor-pointer hover:text-blue-300 hover:scale-110 transition-transform duration-200'>
+                <FaDatabase  />
               </li>
             </a>
           </ul>

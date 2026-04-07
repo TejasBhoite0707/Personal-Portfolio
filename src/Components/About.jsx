@@ -1,11 +1,14 @@
 import React from 'react';
-import { SiMongodb } from "react-icons/si";
+import { SiMongodb, SiMysql, SiPostman } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaJava } from "react-icons/fa";
 import { FaGitSquare } from "react-icons/fa";
+import { BiLogoTypescript } from 'react-icons/bi';
+import APILogo from "../assets/Logos/APILogo.png"
+import CICD from "../assets/Logos/CICD.png"
 function About () {
 
     return (
@@ -13,7 +16,7 @@ function About () {
      <div name='About' className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-16'>
   <h1 className='text-3xl mb-8 font-bold text-indigo-300 border-b-4 border-purple-400 pb-2 w-fit'>About Me</h1>
   <p className='text-lg md:text-xl text-stone-50 leading-relaxed'>
-    I'm Tejas, a passionate MERN Stack and frontend developer, specializing in creating dynamic, responsive web applications. I excel at building user-centric interfaces using React, Tailwind CSS, and modern tools, delivering seamless performance across platforms. My expertise lies in crafting visually appealing, intuitive web experiences. I strive to ensure every project offers both functionality and aesthetic appeal.
+    I'm Tejas, a Full Stack Developer with hands-on experience in building scalable and efficient web applications. I specialize in developing modern applications using React.js, Node.js, SQL, and REST APIs, with a strong focus on creating responsive and user-friendly interfaces. I enjoy working across both frontend and backend to deliver complete, high-performance solutions. My experience includes building real-time systems, API-driven applications, and dynamic dashboards that improve usability and performance. I strive to write clean, maintainable code while continuously learning new technologies to build impactful and reliable software solutions.
   </p>
 
   <div className='mt-12'>
@@ -37,8 +40,13 @@ function About () {
 
     <div className="mt-4">
       <ul className="list-disc pl-5 text-stone-50 space-y-2 text-[18px]">
-        <li>Joined as a Fullstack Developer, undergoing onboarding and training in React.js Native and Typescript</li>
-        <li>Currently working on the Admin Module UI project, focusing on building responsive and user-friendly interfaces</li>
+        <li>Developed and deployed a Token Management System using React.js, Node.js, Express, SQL, and Socket.IO, enabling real-time queue updates, token generation, counter management, and live display panels.</li>
+        <li>Designed and implemented a Notification Center module with integrated SMS API configuration, dynamic template parameters, and messaging workflows, currently used in production by institute clients.</li>
+        <li>Built multiple backend REST APIs for file processing, including Excel data validation and automated ZIP extraction with structured data verification to ensure accuracy before system ingestion.</li>
+        <li>Developed academic management modules including Timetable Tracking and Syllabus Tracking, handling complex API dependencies and optimized SQL queries for efficient data retrieval.</li>
+        <li>Implemented relational mapping systems for Course–Teacher, Subject–Teacher, and Class–Teacher assignments, improving academic resource allocation and administrative workflow management.</li>
+        <li>Designed and integrated responsive React-based UI screens for operational dashboards including token generation panels, display boards, and management interfaces.</li>
+        <li>Collaborated with cross-functional teams to gather requirements, coordinate with UI/UX designers, and follow Git-based version control workflows, while gaining exposure to CI/CD pipeline setup and deployment processes.</li>
       </ul>
     </div>
   </div>
@@ -68,15 +76,52 @@ function About () {
 
   <div className='mt-12'>
     <h1 className='text-2xl font-semibold text-purple-400'>Skills and Expertise</h1>
-    <ul className='text-xl space-y-3 mt-4'>
-      <li className='flex items-center'><SiMongodb className='mr-2 text-green-600' /> MongoDB</li>
-      <li className='flex items-center'><FaReact className='mr-2 text-blue-500' /> React.js</li>
-      <li className='flex items-center'><FaNodeJs className='mr-2 text-green-500' /> Node.js</li>
-      <li className='flex items-center'><SiExpress className='mr-2 text-stone-50' /> Express.js</li>
-      <li className='flex items-center'><IoLogoJavascript className='mr-2 text-yellow-500' /> JavaScript</li>
-      <li className='flex items-center'><FaJava className='mr-2 text-red-500' /> Java</li>
-      <li className='flex items-center'><FaGitSquare className='mr-2 text-orange-600' /> Git</li>
-    </ul>
+   
+    <div className="flex flex-wrap gap-3 mt-4 text-lg">
+  <span className="flex items-center gap-2 bg-gray-800 px-4 py-2 rounded-full ">
+    <SiMongodb className="text-green-600 h-8 w-8"/> MongoDB
+  </span>
+
+  <span className="flex items-center gap-2 bg-gray-800 px-4 py-2 rounded-full">
+    <FaReact className="text-blue-500 h-8 w-8"/> React.js
+  </span>
+
+  <span className="flex items-center gap-2 bg-gray-800 px-4 py-2 rounded-full ">
+    <FaNodeJs className="text-green-500 h-8 w-8"/> Node.js
+  </span>
+
+  <span className="flex items-center gap-2 bg-gray-800 px-4 py-2 rounded-full">
+    <SiExpress className='h-8 w-8' /> Express.js
+  </span>
+
+  <span className="flex items-center gap-2 bg-gray-800 px-4 py-2 rounded-full">
+    <IoLogoJavascript className="text-yellow-500 h-8 w-8"/> JavaScript
+  </span>
+
+  <span className="flex items-center gap-2 bg-gray-800 px-4 py-2 rounded-full">
+    <FaJava className="text-red-500 h-8 w-8"/> Java
+  </span>
+
+  <span className="flex items-center gap-2 bg-gray-800 px-4 py-2 rounded-full">
+    <FaGitSquare className="text-orange-600 h-8 w-8"/> Git
+  </span>
+  <span className="flex items-center gap-2 bg-gray-800 px-4 py-2 rounded-full">
+    <BiLogoTypescript className="text-blue-400 h-8 w-8"/> TypeScript
+  </span>
+   <span className="flex items-center gap-2 bg-gray-800 px-4 py-2 rounded-full">
+    <SiMysql  className="text-blue-400 h-8 w-8"/> MySQL
+  </span>
+  <span className="flex items-center gap-2 bg-gray-800 px-4 py-2 rounded-full">
+    <img src={APILogo}  className="text-blue-400 h-8 w-10"/> Rest API
+  </span>
+  <span className="flex items-center gap-2 bg-gray-800 px-4 py-2 rounded-full">
+    <img src={CICD}  className="text-blue-400 h-8 w-10"/> CICD pipeline
+  </span>
+   <span className="flex items-center gap-2 bg-gray-800 px-4 py-2 rounded-full">
+    <SiPostman  className="text-orange-600 h-8 w-8"/> Postman
+  </span>
+  
+</div>
   </div>
 
   <div className='mt-12'>
