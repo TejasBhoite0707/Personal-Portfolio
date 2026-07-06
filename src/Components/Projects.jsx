@@ -3,6 +3,7 @@ import FoodCart from '../Images/FoodBlog.png';
 import TickTacToe from '../Images/TickTacToe.jpeg';
 import jsi from '../Images/passGenerator.jpg';
 import TodoList from '../Images/to_do_list_icon.png';
+import Rag from "../Images/RagSystem.jpeg"
 import urlShortener from '../Images/UrlShortner.jpeg'
 import BookStore from '../Images/BookStore.png';
 import roxiler from '../Images/Roxiler.jpeg'
@@ -10,7 +11,23 @@ import TravelJourApp from '../Images/TravelJounerlApp.jpeg'
 function Projects () {
 const CardItems=[
     {
-        id:1,
+        id:1 ,
+        name:"RAG Assistant",
+        logo:Rag,
+        webd:'https://rag-assistant-kkj7.onrender.com/',
+        desc:'Developed a full-stack Retrieval-Augmented Generation (RAG) application enabling AI-powered question answering over uploaded PDF documents using Google Gemini AI, PostgreSQL, and pgvector for semantic search.',
+        webRepo:'https://github.com/TejasBhoite0707/Rag-Assistant',
+    },
+    {
+        id:2 ,
+        name:"Travel Journel App",
+        logo:TravelJourApp,
+        webd:'https://github.com/TejasBhoite0707/Travel_journel_App',
+        desc:'Travel Journal is a MERN app to add, view, and manage travel memories with photos, locations, and interactive features.',
+        webRepo:'https://github.com/TejasBhoite0707/Travel_journel_App',
+    },
+    {
+        id:3,
         name:"FoodCourt",
         logo:FoodCart,
         webd:'https://github.com/TejasBhoite0707/Food-CART',
@@ -18,7 +35,7 @@ const CardItems=[
         webRepo:'https://github.com/TejasBhoite0707/Food-CART',
     },
     {
-        id:2,
+        id:4,
         name:"Tic Tak Toe",
         logo:TickTacToe,
         webd:'https://tejas-tictactoe.netlify.app',
@@ -26,7 +43,7 @@ const CardItems=[
         webRepo:'https://github.com/TejasBhoite0707/Game',
     },
     {
-        id:3,
+        id:5,
         name:"PasswordGenerator",
         logo:jsi,
         webd:'https://tejaspassword.netlify.app',
@@ -34,7 +51,7 @@ const CardItems=[
         webRepo:'https://github.com/TejasBhoite0707/Password_Generator',
     },
     {
-        id:4,
+        id:6,
         name:"Bookstotre",
         logo:BookStore,
         webd:'https://github.com/TejasBhoite0707/BookStore',
@@ -42,7 +59,7 @@ const CardItems=[
         webRepo:'https://github.com/TejasBhoite0707/BookStore',
     },
     {
-        id:5 ,
+        id:7,
         name:"TodoList",
         logo:TodoList,
         webd:'https://tejastodolist.netlify.app',
@@ -50,7 +67,7 @@ const CardItems=[
         webRepo:'https://github.com/TejasBhoite0707/ContextApiStorage',
     },
     {
-        id:6 ,
+        id:8,
         name:"URL SHORTENER",
         logo:urlShortener,
         webd:'https://playful-sunshine-3d4649.netlify.app',
@@ -58,21 +75,14 @@ const CardItems=[
         webRepo:'https://github.com/TejasBhoite0707/url-shortener-master',
     },
     {
-        id:7 ,
+        id:9,
         name:"Roxiler Transaction",
         logo:roxiler,
         webd:'https://roxiller-transactions.vercel.app/',
         desc:'Developed a full-stack app that fetches transaction data, featuring a dashboard for sales insights',
         webRepo:'https://github.com/TejasBhoite0707/Solution_Roxiler-Systems',
     },
-    {
-        id:8 ,
-        name:"Travel Journel App",
-        logo:TravelJourApp,
-        webd:'https://github.com/TejasBhoite0707/Travel_journel_App',
-        desc:'Travel Journal is a MERN app to add, view, and manage travel memories with photos, locations, and interactive features.',
-        webRepo:'https://github.com/TejasBhoite0707/Travel_journel_App',
-    },
+    
 ]
     return (
       <>
